@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+footer.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+/* Additional custom styling for sections */
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    section h2 {
+        font-size: 2rem;
+    }
+}
+
+table {
+    width: 80%; /* Set the width of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    border-spacing: 10; /* Set spacing between table cells */
+}
+
+td {
+    padding: 3px; /* Add padding inside table cells */
+    text-align: center; /* Center-align text inside table cells */
+    font-size: 14px;
+}
+tr:first-child + tr {
+    border-spacing: 20px 0; /* Larger vertical spacing after the first row */
+}
