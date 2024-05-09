@@ -57,3 +57,38 @@ td {
 tr:first-child + tr {
     border-spacing: 20px 0; /* Larger vertical spacing after the first row */
 }
+
+.certification-link {
+    background-color: #fff; /* Default button background color */
+    color: #007bff; /* Default button text color */
+    border: 2px solid #007bff; /* Default button border color */
+    padding: 5px 10px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Adjusted font size */
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.certification-link:hover {
+    background-color: #007bff; /* Button color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* Optional: To increase the contrast on hover */
+.certification-link:hover {
+    border-color: #0056b3; /* Border color on hover */
+}
+
+.certification-list li {
+    margin-bottom: 10px; /* Adjusted margin bottom */
+}
+
+/* Define the size for smaller images */
+.smaller-image {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
